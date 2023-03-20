@@ -1,13 +1,14 @@
 import * as React from 'react'
+import David from '../components/layout'
 
-const Homepage = ()=>{
+const IndexPage = () => {
+  return (
+    <David pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </David>
+  )
+}
 
-  return <>
-      <h1>Bonjour David</h1>
-      <p>Ok c'est bon</p>
+export const Head = () => <title>Home Page</title>
 
-    </>
-  
-};
-
-export default Homepage;
+export default IndexPage

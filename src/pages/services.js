@@ -1,7 +1,24 @@
 import * as React from 'react'
+import David from '../components/layout'
 
-const Services = ()=>{
-    return <h1>Services</h1>
+// Step 2: Define your component
+const Services = () => {
+  return (
+    
+      <David pageTitle="Services">
+      <p>A propos services.</p>
+    </David>
+    
+  )
 }
 
-export default Services;
+// Step 3: Export your component
+export const Head = () => (
+
+    <>
+    <title>Services</title>
+    <meta name="description" content="Your description" />
+    </>
+    )
+
+export default Services
