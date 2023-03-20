@@ -1,10 +1,15 @@
 import * as React from 'react'
 import David from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
   return (
     <David pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <StaticImage
+        alt="Fibre optique"
+        src="../images/iStock_000031395242Medium.jpg"
+        />
+        <p>I'm making this by following the Gatsby Tutorial.</p>
     </David>
   )
 }
