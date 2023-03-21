@@ -2,6 +2,7 @@
 import * as React from 'react'
 import David from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const About = () => {
@@ -19,12 +20,5 @@ const About = () => {
 }
 
 // Step 3: Export your component
-export const Head = () => (
-
-    <>
-    <title>About Moi</title>
-    <meta name="description" content="Your description" />
-    </>
-    )
-
+export const Head = () => <Seo title="About Me" />
 export default About
