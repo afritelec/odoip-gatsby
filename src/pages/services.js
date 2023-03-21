@@ -39,6 +39,6 @@ export const query = graphql`
 `
 
 // Step 3: Export your component
-
+//export const Head = ({ data }) => <title>{data.site.siteMetadata.title}</title>
 export const Head = () => <Seo title="Services" />
 export default Services
