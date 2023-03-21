@@ -13,7 +13,15 @@ const Services = ({ data }) => {
         alt="Fibre optique"
         src="../images/iStock_000031499760Medium.jpg"
         />
-        
+    <ul>
+      {
+        data.allFile.nodes.map(node => (
+          <li key={node.name}>
+            {node.name}
+          </li>
+        ))
+      }
+      </ul>    
      
     </David>
     
@@ -28,8 +36,9 @@ export const query = graphql`
       }
     }
   }
-  `
+`
 
 // Step 3: Export your component
-//export const Head = ({ data }) => <title>{data.site.siteMetadata.title}</title>
+
+export const Head = () => <Seo title="Services" />
 export default Services
