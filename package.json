@@ -24,5 +24,15 @@
     "gatsby-transformer-sharp": "^5.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "main": "gatsby-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afritelec/odoip-gatsby.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afritelec/odoip-gatsby/issues"
+  },
+  "homepage": "https://github.com/afritelec/odoip-gatsby#readme"
 }
